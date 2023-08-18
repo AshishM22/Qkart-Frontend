@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 5vh;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+}
+
+.username-text {
+    display: none;
+}
+
+.header-title {
+    cursor: pointer;
+}
+
+.explore-button {
+    color: #00a278 !important;
+}
+.header-right-component {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .header-right-component p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .header-right-component .search-desktop {
+    flex: 1;
+  }
+  container-username-logout{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .username-text {
+        display: block;
+    }
+}
