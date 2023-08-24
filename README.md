@@ -60,6 +60,4 @@
   npm start
 ```
 
-## Made By
 
-[Ashish Munot](https://github.com/AshishM22)
