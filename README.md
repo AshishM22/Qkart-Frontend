@@ -33,7 +33,7 @@
 
 ## Demo
 
-##### Netlify Deployment - https://delightful-toffee-ddedb5.netlify.app/
+##### Netlify Deployment - [https://delightful-toffee-ddedb5.netlify.app/](https://qkart22.netlify.app/)
 
 ## Installation Guide
 
