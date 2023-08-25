@@ -7,7 +7,7 @@ import Thanks from './components/Thanks';
 
 
 export const config = {
-  endpoint: `http://${localhost}:8082/api/v1`,
+  endpoint: `https://qkart-frontend-pe02.onrender.com/api/v1`,
 };
 
 function App() {
@@ -15,11 +15,11 @@ function App() {
     <div className="App">
       {/* TODO: CRIO_TASK_MODULE_LOGIN - To add configure routes and their mapping */}
         <Switch>
-              <Route exact path="/register" component={Register} />
+              <Route exact path="/" component={Register} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/checkout" component={Checkout} />
               <Route exact path="/thanks" component={Thanks} />              
-              <Route exact path="/" component={Products} />      
+              <Route exact path="/products" component={Products} />      
         </Switch>
     </div>
   );
